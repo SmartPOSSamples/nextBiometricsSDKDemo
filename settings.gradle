@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = 'nbbiometrics-scan-and-extract-sample-android'

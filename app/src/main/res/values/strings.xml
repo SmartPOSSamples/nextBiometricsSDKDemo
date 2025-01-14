@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NEXT Biometrics Scan And Extract</string>
+    
+    <string name="hello">NEXT Biometrics SDK</string>
+    <string name="spoofsetting">Spoof Setting</string>
+    <string name="autosavesetting">Autosave Setting</string>
+
+    <color name="error_message_color">#FF0000</color>
+    <color name="message_window_background">#AAAAAA</color>
+    <color name="title_background">#AA067bb1</color>
+    <color name="license_info_color">#AAffd800</color>
+    <color name="title_color">#ffffffff</color>
+    <color name="prompt_color">#d3d3d3</color>
+    <color name="threshold_color">#080808</color>
+    <color name="layout_color">#7E7E7E</color>
+    <color name="button_text_color">#A9A9A9</color>
+    <string-array name="image_format_list">
+        <item>BMP</item>
+        <item>RAW</item>
+        <item>PNG</item>
+        <item>JPG</item>
+    </string-array>
+</resources>

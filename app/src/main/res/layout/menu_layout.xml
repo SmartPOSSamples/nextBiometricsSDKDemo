@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_layout"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/prompt_color"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/title_background"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/spoofsetting"
+        android:textColor="@color/title_color"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/app_icon" />
+
+    <CheckBox
+        android:id="@+id/spoofview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/threshold_color"
+        android:text="AntiSpoof Threshold : "
+        android:textColor="@color/threshold_color"
+        android:textSize="20sp"
+	android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <EditText
+        android:id="@+id/editTextDialogUserInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/threshold_color"
+        android:textColorHint="@color/title_background"
+        android:inputType="number"
+        android:maxLength="4"
+        android:digits="0123456789"
+        android:hint="Enter a number between 0 and 1000">
+
+        <requestFocus />
+
+    </EditText>
+
+</LinearLayout>

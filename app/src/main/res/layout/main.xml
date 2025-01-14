@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/layout_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/title_background"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/hello"
+        android:textColor="@color/title_color"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/app_icon" />
+
+    <TextView
+        android:id="@+id/textResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/title_color"
+        android:gravity="center_vertical|center_horizontal|center" />
+
+    <Button
+        android:id="@+id/scanAndExtract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:layout_marginBottom="20dp"
+        android:enabled="false"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:backgroundTint="@color/button_text_color"
+        android:text="Scan and Extract" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/message_window_background">
+
+        <LinearLayout
+            android:id="@+id/messagesHolder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"></LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

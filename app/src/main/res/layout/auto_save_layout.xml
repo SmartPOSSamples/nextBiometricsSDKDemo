@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/auto_save_layout">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/title_background"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/autosavesetting"
+        android:textColor="@color/title_color"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/app_icon" />
+
+    <CheckBox
+        android:id="@+id/spoofview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/threshold_color"
+        android:text="Auto Save : "
+        android:textColor="@color/threshold_color"
+        android:textSize="20sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Spinner
+        android:id="@+id/imageformatSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="20px"
+        android:layout_marginRight="30px"
+        android:layout_marginLeft="30px"
+        />
+
+</LinearLayout>
